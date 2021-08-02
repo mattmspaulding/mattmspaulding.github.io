@@ -65,9 +65,13 @@ a > svg {
     margin-bottom: .7vw;
 }
 
+.projects {
+    display: grid;
+    place-items: center;
+}
+
 #project-charts-btn, #project-millie-btn, #project-pulsar-btn, #project-wiki-btn, #project-goober-btn {
-    height: 10vh;
-    width: 15vw;
+ 
     font-size: 2vw;
     border-radius: 2vw;
     border: none;
@@ -75,6 +79,8 @@ a > svg {
     color:#191414;
     transition: .5s;
     margin: auto;  
+    padding-left: 45px;
+    padding-right: 45px;
     display: block;
 }
 
@@ -142,9 +148,8 @@ a {
 
 .project {
     background-color: #F6F8FD!important;
-    width: 44%;
+    width: 50%;
     height: auto;
-    float: left;
     margin-bottom: 4%;
     margin-left: 3%;
     margin-right: 2%;
@@ -230,10 +235,10 @@ small {
 }
 
 .list-checkmarks li:before {    
-  font-family: 'FontAwesome';
-  content: "\f00c";
-  margin: 0 10px 0 -28px;
-  color: #17aa1c;
+    font-family: 'FontAwesome';
+    content: "\f00c";
+    margin: 0 10px 0 -28px;
+    color: #17aa1c;
 }
 
 .modal-header {
@@ -249,13 +254,11 @@ li {
 }
 
 ::-webkit-scrollbar {
-    
     width: 0.5vw;
 }
 
 ::-webkit-scrollbar-track {
     background: #212121;
-    
 }
   
 ::-webkit-scrollbar-thumb {
