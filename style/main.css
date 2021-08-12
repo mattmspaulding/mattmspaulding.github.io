@@ -1,9 +1,6 @@
-html {
-    scroll-behavior: smooth;
-}
 
 body {
-    background-color: #f6f8fd;
+    background-color: #e4e4e47a;
     text-align: center;
     color: #29293D;
     font-family: 'Roboto Mono', monospace;
@@ -58,11 +55,27 @@ svg {
     height: auto;
 }
 
-a > svg {
+li > a > svg {
     width:100% !important;
     padding-right: 2vw;
     margin-top: .7vw;
     margin-bottom: .7vw;
+    transition: 0.5s;
+}
+
+li > a > svg:hover {
+    color: rgb(255,255, 255, .8);
+}
+
+.col-6 > a > svg {
+    vertical-align: baseline;
+    float: left;
+    border-radius: 4vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.col-6 > a > svg:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .projects {
