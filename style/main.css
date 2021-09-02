@@ -12,16 +12,50 @@ body {
     line-height: 2 !important;
 }
 
+.navbar-brand {
+    padding-top: 1rem;
+    width: 50%;
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    color:hsl(214, 7%, 47%) !important;
+    margin-left: 4rem;
+    padding-bottom: 0px;
+}
+
+.navbar-toggler {
+    padding-bottom: 0px;
+    position:fixed;
+    top: 25px;
+    right: 0px;
+}
+
+.nav-item {
+    text-align: left;
+}
+
+.nav-item > .nav-link:hover {
+    color:#1a202c !important;
+}
+
+.navbar {
+    background: transparent;
+    border: none;
+    float: none;
+    width: 100%;
+    margin: auto;
+}
+
 p {
     font-size: 1.6rem;
     color: #4a5568;
 }
 
-.navbar {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    width: 100%;
-    height: 90%;
+.project-summary {
+    padding: 1.3rem;
 }
 
 #checkmark-icon {
@@ -39,7 +73,7 @@ li > h1 {
 }
 
 h4 {
-    font-size: 2vw;
+    font-size: 1.6rem;
 }
 
 .modal-title {
@@ -57,12 +91,15 @@ svg {
     height: auto;
 }
 
-li > a > svg {
-    width:100% !important;
-    padding-right: 2vw;
-    margin-top: .7vw;
-    margin-bottom: .7vw;
-    transition: 0.5s;
+#link-out-icon {
+    margin-top: -.6rem;
+    margin-left: .2rem;
+    width: % !important;
+    height: auto !important;
+}
+
+#link-out-icon:hover {
+    color:#1a202c;
 }
 
 li > a > svg:hover {
@@ -110,6 +147,10 @@ button:active {
     opacity: 0.75;
 }
 
+.navbar-toggler {
+    border: 0 !important
+}
+
 #project-charts-btn:hover {
     background-color: #007bff;
     color: white;
@@ -131,9 +172,6 @@ button:active {
     color: #191414;
 }
 
-#navbar-link {
-    width: 100% !important;
-}
 
 #link-icon {
     width: 4% !important;
@@ -142,7 +180,7 @@ button:active {
 
 a {
     text-decoration: none;
-    color: white !important;
+    color: #1a202c !important;
     padding-right: 2vw;
 }
 
@@ -225,6 +263,10 @@ img {
     max-width: 600px;
 }
 
+.modal-body {
+    margin-bottom: 4rem;
+}
+
 h5 {
     text-align: left;
     padding-left: 1.5rem;
@@ -232,6 +274,12 @@ h5 {
 
 .project-header {
     padding: 1.5rem;
+}
+
+hr {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    border-top: 1px solid hsl(214, 7%, 47%);
 }
 
 small {
@@ -255,6 +303,7 @@ small {
 
 .list-checkmarks {
     padding-left: 1.5rem;
+    text-align: left;
 }
 
 .list-checkmarks li {
@@ -304,14 +353,23 @@ li {
 
 
 @media (max-width: 991.98px) {
+
+    body {
+        line-height: 1 !important;
+    }
+
     .project {
         width: 90%;
     }
     li > a > svg {
         width: 90% !important;
     }
-    .navbar-nav {
-        flex-direction: row;
+   
+    hr {
+        margin-top: 10px;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        border-top: 1px solid hsl(214, 7%, 47%);
     }
 
     li > h1 {
@@ -321,6 +379,7 @@ li {
     p {
         font-size: 1.1rem;
         color: #4a5568;
+        padding: 1rem;
     }
 
     .project-header {
@@ -359,7 +418,33 @@ li {
     #project-charts-btn, #project-millie-btn, #project-pulsar-btn, #project-wiki-btn, #project-goober-btn {
         font-size: 4vw;
     }
+
     h4 {
         font-size: 5vw;
     }
+}
+
+@media (max-width: 850px) {
+    .navbar {
+        margin-bottom: 3rem;
+    }
+
+    .navbar-brand {
+        position: fixed;
+        top: 5px;
+        left: 15px;
+        margin-bottom: 2rem;
+    }
+
+    .navbar-toggler{
+        position:fixed;
+        top: 20px;
+        right: 0px;
+    }
+
+    .navbar-collapse {
+        margin-top: 4rem;
+    }
+
+   
 }
