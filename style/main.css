@@ -28,13 +28,9 @@ body {
 
 .navbar-toggler {
     padding-bottom: 0px;
-    position:fixed;
-    top: 25px;
+    position: static;
+    top: 15px;
     right: 0px;
-}
-
-.nav-item {
-    text-align: left;
 }
 
 .nav-item > .nav-link:hover {
@@ -354,22 +350,19 @@ li {
 
 @media (max-width: 991.98px) {
 
-    body {
-        line-height: 1 !important;
-    }
-
     .project {
         width: 90%;
     }
     li > a > svg {
         width: 90% !important;
     }
+
+    .navbar {
+        margin: 0;
+    }
    
     hr {
-        margin-top: 10px;
-        margin-left: 5vw;
-        margin-right: 5vw;
-        border-top: 1px solid hsl(214, 7%, 47%);
+        display: none;
     }
 
     li > h1 {
@@ -425,26 +418,17 @@ li {
 }
 
 @media (max-width: 850px) {
-    .navbar {
-        margin-bottom: 3rem;
-    }
-
     .navbar-brand {
-        position: fixed;
+        position: static;
         top: 5px;
         left: 15px;
-        margin-bottom: 2rem;
     }
 
     .navbar-toggler{
-        position:fixed;
-        top: 20px;
+        position: static;
+        top: 15px;
         right: 0px;
     }
 
-    .navbar-collapse {
-        margin-top: 4rem;
-    }
-
-   
+  
 }
