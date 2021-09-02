@@ -50,10 +50,6 @@ p {
     color: #4a5568;
 }
 
-.project-summary {
-    padding: 1.3rem;
-}
-
 #checkmark-icon {
     color: green;
     font-size: 1.2vw;
@@ -86,7 +82,9 @@ svg {
     width: 10%;
     height: auto;
     margin-top: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5em;
+    margin-left: 1rem;
+    text-align:center;
 }
 
 
@@ -119,7 +117,8 @@ li > a > svg:hover {
     color:#191414;
     transition: .5s;
     margin: auto; 
-    margin-bottom: 1rem; 
+    margin-top: 2rem !important;
+    margin-bottom: 2rem; 
     padding-left: 45px;
     padding-right: 45px;
     display: block;
@@ -283,7 +282,8 @@ small {
 #article-link {
     color: #0d6efd !important;
     text-decoration: underline;
-    text-align: center;
+    text-align: center !important;
+    font-size: 1.2rem !important;
 }
 
 .list-display li {
@@ -407,7 +407,7 @@ li {
     }
 
     h4 {
-        font-size: 5vw;
+        font-size: 1.6rem;
     }
 
     svg {
