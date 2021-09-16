@@ -329,19 +329,19 @@ li {
 ::-webkit-scrollbar {
     width: 0.5vw;
 }
-
+  
 ::-webkit-scrollbar-track {
     background: #212121;
 }
   
 ::-webkit-scrollbar-thumb {
-    background: rgb(199, 199, 199);
+    background: #c7c7c7;
     border-radius: .75vw;
     padding-top: 10px;
 }
-
+  
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(165, 165, 165);
+    background: #a5a5a5;
 }
 
 
@@ -427,9 +427,7 @@ li {
 
 @media (max-width: 850px) {
     .navbar-brand {
-        position: static;
-        top: 5px;
-        left: 15px;
+        font-size: 1.2rem;
     }
 
     .navbar-toggler{
