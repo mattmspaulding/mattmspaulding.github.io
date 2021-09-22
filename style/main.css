@@ -194,7 +194,7 @@ button:active {
 }
 
 #project-createdthroughmyeyes-btn:hover {
-  background-color: #f2ece7;
+  background-color: #006994;
   color: black;
 }
 
@@ -288,7 +288,7 @@ a {
 }
 
 #project-createdthroughmyeyes {
-  border-top: 0.75vw solid #f2ece7;
+  border-top: 0.75vw solid #006994;
 }
 
 img {
