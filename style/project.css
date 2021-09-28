@@ -2,6 +2,7 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
     Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  width: 100%;
 }
 
 body {
@@ -171,4 +172,25 @@ img:hover {
 
 ol li {
   font-size: 1.2rem;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-brand {
+    padding-left: 20px;
+  }
+
+  .project-header {
+    padding-left: 0px;
+  }
+  .project-header > h1 {
+    font-size: 3rem;
+  }
+  .project-info {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  video {
+    max-width: 100%;
+  }
 }

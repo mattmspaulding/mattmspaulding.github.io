@@ -2,6 +2,7 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
     Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  width: 100%;
 }
 
 body {
@@ -559,9 +560,18 @@ li {
 }
 
 @media (max-width: 991.98px) {
-  .project {
-    width: 90%;
+  .navbar-brand {
+    padding-left: 0.4rem;
   }
+
+  #profile-img {
+    display: none;
+  }
+
+  .greeting {
+    margin-left: 0.4rem;
+  }
+
   li > a > svg {
     width: 90% !important;
   }
@@ -575,36 +585,36 @@ li {
   }
 
   p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #4a5568;
     padding: 1rem;
   }
 
+  .main-showcase {
+    flex-direction: column;
+    border-left: 2vw solid #d52941;
+  }
+
+  .main-showcase > .featured-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 2vh;
+    min-width: 100%;
+    max-width: 100vw;
+  }
+
+  img,
+  video {
+    display: none;
+  }
+
+  .sub-showcase {
+    flex-direction: column;
+    border-left: 2vw solid #007bff;
+  }
   .project-header {
     padding: 0.7rem;
-  }
-
-  .article-link {
-    font-size: 0.8rem !important;
-    margin-bottom: 0 !important;
-  }
-
-  #modal-para {
-    text-align: left;
-    padding-left: 1.5rem;
-  }
-
-  .modal-title {
-    font-size: 1.5rem !important;
-  }
-
-  .modal-title > small {
-    font-size: 1.5rem !important;
-  }
-
-  #tag {
-    display: none;
-    margin-top: 1rem;
   }
 
   .col-12 > p,
@@ -626,12 +636,6 @@ li {
   }
 
   .project-header {
-    font-size: 1rem !important;
-  }
-}
-
-@media (max-width: 850px) {
-  #article-link {
     font-size: 1rem !important;
   }
 }
