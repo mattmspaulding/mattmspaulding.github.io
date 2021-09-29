@@ -97,6 +97,17 @@ h3 {
   align-items: center;
 }
 
+.images > h3 {
+  margin-top: 3rem;
+  color: whitesmoke;
+}
+
+.images > h4 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: whitesmoke;
+}
+
 p {
   font-size: 1.2rem;
   color: #484a4d;
@@ -172,6 +183,61 @@ img:hover {
 
 ol li {
   font-size: 1.2rem;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-3000px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-3000px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
 }
 
 @media (max-width: 991.98px) {
