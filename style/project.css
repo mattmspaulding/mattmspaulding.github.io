@@ -14,11 +14,6 @@ body {
   line-height: 2 !important;
 }
 
-:root {
-  --animate-duration: 1ms;
-  --animate-delay: 0s;
-}
-
 .container-fluid {
   padding-left: 0 !important;
 }

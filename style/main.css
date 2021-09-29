@@ -5,11 +5,6 @@ html {
   width: 100%;
 }
 
-:root {
-  --animate-duration: 100ms;
-  --animate-delay: 0s;
-}
-
 body {
   background-color: #ffffff;
   text-align: center;
