@@ -69,9 +69,10 @@ body {
 .main-header {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: left;
   align-items: center;
   flex-wrap: wrap;
+  margin-left: 10rem;
 }
 
 #profile-img {
@@ -141,6 +142,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  margin-left: 25vw;
 }
 
 svg {
@@ -516,13 +518,25 @@ li {
   background: #a5a5a5;
 }
 
+@media (max-width: 1414px) {
+  .right-header {
+    margin-left: 5rem;
+  }
+}
+
+@media (max-width: 1140px) {
+  .right-header {
+    display: none;
+  }
+}
+
 @media (max-width: 991.98px) {
   .navbar-brand {
     padding-left: 0.4rem;
   }
 
-  #profile-img {
-    display: none;
+  .main-header {
+    margin-left: 2rem;
   }
 
   .greeting {
