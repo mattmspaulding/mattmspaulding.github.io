@@ -528,6 +528,10 @@ li {
   .right-header {
     display: none;
   }
+
+  #mobile-img {
+    margin-left: 0.4rem !important;
+  }
 }
 
 @media (max-width: 991.98px) {
