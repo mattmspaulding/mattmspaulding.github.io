@@ -178,6 +178,7 @@ svg {
 }
 
 #project-charts-btn,
+#project-millie-btn,
 #project-proses-btn {
   width: 180px;
   height: auto;
@@ -194,6 +195,7 @@ svg {
 }
 
 #project-charts-btn:hover,
+#project-millie-btn:hover,
 #project-proses-btn:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   cursor: pointer;
@@ -205,6 +207,10 @@ svg {
 
 #project-proses-btn:hover {
   border: 3px solid #d52941;
+}
+
+#project-millie-btn:hover {
+  border: 3px solid #4360b5;
 }
 
 button:active {
@@ -222,6 +228,11 @@ button:active {
 
 #project-proses-btn:hover {
   background-color: #d52941;
+  color: white !important;
+}
+
+#project-millie-btn:hover {
+  background-color: #4360b5;
   color: white !important;
 }
 
