@@ -108,9 +108,27 @@ h3 {
   color: whitesmoke;
 }
 
+#header-tag {
+  max-width: 500px;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  color: #10b981;
+  background-color: #d1fae5;
+  font-weight: 700;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  vertical-align: text-bottom;
+}
+
 p {
   font-size: 1.2rem;
   color: #484a4d;
+  max-width: 700px;
 }
 
 video {
@@ -139,8 +157,8 @@ img:hover {
 }
 
 #tag {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #10b981;
   background-color: #d1fae5;
   font-weight: 700;
@@ -149,7 +167,6 @@ img:hover {
   padding-top: 0.4rem;
   padding-bottom: 0.4rem;
   border-radius: 0.5rem;
-  margin-left: 1.5vw;
   vertical-align: text-bottom;
 }
 
