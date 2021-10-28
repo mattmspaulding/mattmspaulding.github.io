@@ -177,7 +177,8 @@ svg {
 
 #project-charts-btn,
 #project-millie-btn,
-#project-proses-btn {
+#project-proses-btn,
+#project-nerdyking-btn {
   width: 180px;
   height: auto;
   font-size: 1.5rem;
@@ -194,7 +195,8 @@ svg {
 
 #project-charts-btn:hover,
 #project-millie-btn:hover,
-#project-proses-btn:hover {
+#project-proses-btn:hover,
+#project-nerdyking-btn:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
@@ -209,6 +211,10 @@ svg {
 
 #project-millie-btn:hover {
   border: 3px solid #4360b5;
+}
+
+#project-nerdyking-btn:hover {
+  border: 3px solid #7e3af2;
 }
 
 button:active {
