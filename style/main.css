@@ -240,7 +240,12 @@ button:active {
   color: white !important;
 }
 
-#link-icon {
+#project-nerdyking-btn:hover {
+  background-color: #7e3af2;
+  color: white !important;
+}
+
+#project-nerdyking-btn:hover #link-icon {
   width: 4% !important;
   margin-top: 1vw;
 }
