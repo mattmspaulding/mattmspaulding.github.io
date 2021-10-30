@@ -22,7 +22,7 @@ body {
 }
 
 .greeting > h1 {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-size: 4.7rem;
 }
 
@@ -104,6 +104,7 @@ body {
   height: auto;
   max-width: 350px;
   max-height: 350px;
+
   border-radius: 50%;
   transition: 0.3s;
   box-shadow: none;
@@ -258,7 +259,7 @@ a {
 #tag {
   font-size: 0.875rem;
   line-height: 1.25rem;
-  color: #10b981;
+  color: #0b9b6b;
   background-color: #d1fae5;
   font-weight: 700;
   padding-left: 0.75rem;
