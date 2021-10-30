@@ -20,7 +20,7 @@ body {
 
 .navbar-brand {
   padding-top: 1rem;
-  padding-left: 10rem;
+  padding-left: 12vw;
   font-size: 1.75rem;
   font-weight: 450;
   color: #353738;
@@ -29,6 +29,14 @@ body {
 
 .navbar-brand:hover {
   color: #5f6162;
+}
+
+#number {
+  margin: 0 10px 0 -28px;
+  color: whitesmoke;
+  background: #17aa1c;
+  padding: 3px;
+  border-radius: 20px;
 }
 
 #cute-logo {
