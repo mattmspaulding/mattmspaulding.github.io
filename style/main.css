@@ -14,6 +14,10 @@ body {
   line-height: 2 !important;
 }
 
+h1 {
+  margin-bottom: 2rem;
+}
+
 .greeting {
   display: flex;
   flex-direction: column;
@@ -23,7 +27,7 @@ body {
 
 .greeting > h1 {
   margin-bottom: 1rem;
-  font-size: 4.7rem;
+  font-size: 3.5rem;
 }
 
 .greeting > ul > li {
@@ -65,12 +69,8 @@ body {
   color: white !important;
 }
 
-#dribbble-btn {
-  margin-left: 2rem;
-}
-
-#dribbble-btn:hover {
-  background-color: #ea4c89;
+#medium-btn:hover {
+  background-color: #000;
   color: white !important;
 }
 
@@ -106,11 +106,6 @@ body {
   max-height: 350px;
   border-radius: 50%;
   transition: 0.3s;
-}
-
-#blog-btn:hover {
-  background-color: #d52941;
-  color: white !important;
 }
 
 .logos {
@@ -177,7 +172,8 @@ svg {
 #project-charts-btn,
 #project-millie-btn,
 #project-proses-btn,
-#project-nerdyking-btn {
+#project-nerdyking-btn,
+#project-mtbt-btn {
   width: 180px;
   height: auto;
   font-size: 1.5rem;
@@ -195,7 +191,8 @@ svg {
 #project-charts-btn:hover,
 #project-millie-btn:hover,
 #project-proses-btn:hover,
-#project-nerdyking-btn:hover {
+#project-nerdyking-btn:hover,
+#project-mtbt-btn:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
@@ -214,6 +211,10 @@ svg {
 
 #project-nerdyking-btn:hover {
   border: 3px solid #7e3af2;
+}
+
+#project-mtbt-btn:hover {
+  border: 3px solid #000;
 }
 
 button:active {
@@ -241,6 +242,11 @@ button:active {
 
 #project-nerdyking-btn:hover {
   background-color: #7e3af2;
+  color: white !important;
+}
+
+#project-mtbt-btn:hover {
+  background-color: #000;
   color: white !important;
 }
 
@@ -435,12 +441,12 @@ li {
 
 .showcase > h2 {
   font-size: 1.5rem;
-  color: #5a5a5a;
+  color: #252525;
 }
 .showcase > h3 {
   margin-top: 1rem;
   font-size: 1.4rem;
-  color: #5a5a5a;
+  color: #252525;
 }
 .showcase > p {
   max-width: 600px;

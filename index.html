@@ -35,16 +35,13 @@
         <div class="main-header animated fadeInDown">
           <section class="greeting">
             <h2>Hey!</h2>
-            <h1>
-              I'm Matthew
-              <span style="font-size: 70px">&#128516;</span>
-            </h1>
+            <h1>I'm Matthew</h1>
 
             <h2>Passions include:</h2>
             <ul class="list-display list-checkmarks">
-              <li>Conducting research that helps users</li>
+              <li>Helping users get the most out of a product</li>
+              <li>Making things <s>super</s> simple</li>
               <li>Finding creative ways to solve complex problems</li>
-              <li>Learning from everyone and everything</li>
             </ul>
 
             <div class="links">
@@ -57,45 +54,66 @@
                 >LinkedIn</a
               >
 
-              <!--
               <a
-                id="blog-btn"
-                href=""
+                id="medium-btn"
+                href="https://medium.com/@matthew_michael"
                 class="btn btn-primary btn-lg link-btn"
                 role="button"
+                style="margin-left: 1rem"
                 aria-disabled="true"
-                >Blog</a
-              >-->
+                >Medium</a
+              >
             </div>
           </section>
 
           <section class="right-header">
             <img
-              src="resources/profile.png"
+              src="resources/bighead.svg"
               id="profile-img"
-              alt="cute profile picture"
+              alt="profile picture"
             />
           </section>
         </div>
       </section>
 
       <section class="header-info animated fadeInDown">
-        <span id="header-tag"
-          >10/27/21: Frontiers Journal Article Published!</span
-        >
+        <span id="header-tag">Favorite Podcast: Writers in Tech</span>
         <span id="header-tag" style="margin-left: 3rem"
-          >Favorite Podcast: Front End Happy Hour</span
+          >10/27/21: Frontiers Journal Article Published</span
         >
+
         <span id="header-tag" style="margin-left: 3rem"
-          >Currently Reading: UX Methods: A Quick Guide...
+          >Currently Reading: Insider's Guide to Technical Writing
         </span>
       </section>
 
-      <section id="content-holder">
+      <section id="content-holder" style="margin-right: 1rem">
+        <section
+          class="showcase animated fadeInDown"
+          style="
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding: 2rem;
+            border-radius: 1rem;
+            max-width: 850px !important;
+            margin-bottom: 3rem;
+          "
+        >
+          <h1>Writing Samples</h1>
+          <p>
+            All of my writing and random ux writing critiques (myself included).
+          </p>
+          <section style="margin-top: 1.3rem">
+            <a
+              href="writingsamples.html"
+              id="project-mtbt-btn"
+              style="padding: 0.6rem; padding-left: 1rem; padding-right: 1rem"
+              >Writing Samples</a
+            >
+          </section>
+        </section>
         <section class="showcase animated fadeInDown">
-          <h1>Experience</h1>
-          <h3>SimpleChartsRI</h3>
-          <h3>NSF Grant</h3>
+          <h1>Professional Experience</h1>
+          <h2>SimpleChartsRI</h2>
           <p>
             Classrooms are boring. They are filled with textbooks and
             powerpoints, but creating a visualization takes time. SimpleChartsRI
@@ -106,7 +124,7 @@
             href="simplechartsri.html"
             style="margin-top: 2%"
             id="project-charts-btn"
-            >Case Study</a
+            >Learn More</a
           >
 
           <video
@@ -117,11 +135,10 @@
           ></video>
         </section>
 
-        <hr />
-
+        <!--
+           <hr />
         <section class="showcase animated fadeInDown">
-          <h3>Millie</h3>
-          <h3>Inventory Automation Bot</h3>
+          <h2>Millie</h2>
           <p>
             Picture this. The pandemic just began. Everything you want is sold
             out in seconds. You need something faster than a human to buy
@@ -135,17 +152,35 @@
 
           <img src="resources/millie image.png" alt="Millie project image" />
         </section>
+        -->
 
         <section class="showcase">
           <h1>Current Projects</h1>
-          <h3>TheNerdyKing</h3>
+          <h2>Make Things. Break Things.</h2>
 
           <p>
-            After graduating, I realized my passion wasn't focused on
-            <i>how</i> things were made, but rather on <i>what</i> it is I'm
-            making. TheNerdyKing was made to ensure students know what matters
-            most to them and find the resources to help them become Kings or
-            Queens in their field.
+            Your creative buddy in newsletter form. Educating, informing, and
+            inspiring readers to make, or even break, a few things along the
+            way.
+          </p>
+          <a href="mtbt.html" style="margin-top: 2%" id="project-mtbt-btn"
+            >Learn More</a
+          >
+          <img
+            src="resources/mtbt-landing.png"
+            alt="The Make Things Break Things landing page"
+          />
+        </section>
+        <hr />
+        <!--
+        <section class="showcase">
+          <h2>TheNerdyKing</h2>
+
+          <p>
+            Some Computer Science students are passionate about <i>how</i> to
+            make things. Some prefer thinking about <i>what</i> they are making.
+            TheNerdyKing helps students find their true passion. By the King,
+            for the People!
           </p>
 
           <a
@@ -159,88 +194,6 @@
             alt="The Nerdy King landing page"
           />
         </section>
-
-        <hr />
-
-        <section class="showcase">
-          <h3>Proses</h3>
-
-          <p>
-            Most creative writing tools are generic. They help you organize, but
-            don't push you to engage any further with your story. Why not help
-            writers visualize their work?
-          </p>
-
-          <a href="proses.html" style="margin-top: 2%" id="project-proses-btn"
-            >Learn More</a
-          >
-          <img
-            src="resources/proses-Manuscript-Analysis.png"
-            alt="proses project screenshot"
-          />
-        </section>
-
-        <!--
-        <section class="showcase">
-          <h1>UI Showcase</h1>
-          <h2>Designs for projects I would love to create.</h2>
-
-          <h3>INSTR</h3>
-          <p>Find plugins and instruments used in your favorite songs.</p>
-          <div style="display: flex; flex-direction: row; flex-wrap: wrap">
-            <img
-              src="resources/instr-1.png"
-              alt="instr ui project screenshot"
-              style="max-width: 428px; border-radius: 2rem"
-            />
-            <img
-              id="mobile-img"
-              src="resources/instr-2.png"
-              alt="instr ui project screenshot"
-              style="max-width: 428px; border-radius: 2rem; margin-left: 5rem"
-            />
-          </div>
-
-          <h3>Rhymer</h3>
-          <p>
-            Notes apps. Voice memo apps. Lyric writing apps. Endless folders to
-            keep track of audio and video files. BPM finders. Song key finders.
-            How many apps do artists need? Rhymer is a simple tool to help
-            artists keep track of their songs and get quality feedback before
-            release.
-          </p>
-          <img
-            src="resources/Rhymer-landing-page.png"
-            alt="rhymer ui project screenshot"
-          />
-          <img
-            src="resources/Rhymer-library-page.png"
-            alt="rhymer ui project screenshot"
-          />
-          <img
-            src="resources/Rhymer-main-page.png"
-            alt="rhymer ui project screenshot"
-          />
-
-          <h3>Exulansis</h3>
-          <p>
-            A mental health based flash fiction creative writing platform for
-            people to post anonymously and creatively express their troubles.
-          </p>
-          <img
-            src="resources/exulansis-landing.png"
-            alt="exulansis project landing page"
-          />
-          <img
-            src="resources/exulansis-write.png"
-            alt="exulansis project write page"
-          />
-          <img
-            src="resources/exulansis-read.png"
-            alt="exulansis project read page"
-          />
-        </section>
-
         -->
       </section>
     </main>

@@ -18,6 +18,44 @@ body {
   padding-left: 0 !important;
 }
 
+.content {
+  margin-top: 2rem;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  margin-top: 7rem;
+  margin-left: 2rem;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+  align-self: flex-start;
+}
+.sidebar > h3 {
+  font-size: 1.4rem;
+  color: #272727;
+  -webkit-font-smoothing: antialiased;
+}
+.sidebar > a,
+.sidebar > ul > li > a {
+  color: #6b7280;
+  font-size: 1.1rem;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+}
+.sidebar > a:hover,
+.sidebar > ul > li > a:hover {
+  background: -webkit-linear-gradient(#7e3af2, #2563eb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .navbar-brand {
   padding-top: 1rem;
   padding-left: 12vw;
@@ -73,7 +111,6 @@ body {
   margin-top: 2rem;
 }
 .project-info {
-  margin-left: 25vw;
   margin-top: 5rem;
   margin-right: 25vw;
   text-align: left;
@@ -94,6 +131,11 @@ h3 {
   color: #353738;
   font-size: 2.3rem;
 }
+.blurb-section {
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  border-left: 3px solid #000;
+}
 
 .images {
   display: flex;
@@ -111,6 +153,11 @@ h3 {
   font-size: 2rem;
   margin-top: 1rem;
   color: whitesmoke;
+}
+
+h4 {
+  font-size: 1.2rem;
+  color: #7c7c7c;
 }
 
 #header-tag {
